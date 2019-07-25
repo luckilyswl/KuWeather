@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "ku_weather"/>
+    <version value="1"/>
+    <list>
+        <mapping class = "com.qingshangzuo.kuweather.db.Province"/>
+        <mapping class = "com.qingshangzuo.kuweather.db.City"/>
+        <mapping class = "com.qingshangzuo.kuweather.db.County"/>
+    </list>
+</litepal>
