@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">SimpleWeather</string>
 
-
     <string name="city_name">沈阳</string>
     <string name="aqi">AQI</string>
     <string name="humidity">湿度</string>
@@ -9,5 +8,4 @@
     <string name="down">日落</string>
     <string name="pm2_5">PM2.5</string>
     <string name="quality">空气质量</string>
-
 </resources>

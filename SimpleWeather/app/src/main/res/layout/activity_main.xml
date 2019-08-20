@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgd"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:background="@drawable/bgd"
+    tools:context="com.sk.simpleweather.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -80,18 +80,18 @@
 
     </RelativeLayout>
 
-    <com.qingshangzuo.simpleweather.MyCurveView
+    <com.sk.simpleweather.MyCurveView
         android:id="@+id/mybarCharView"
         android:layout_width="match_parent"
         android:layout_height="240dp"
         android:background="#3000"
-        app:circle_color="#fff"
-        app:curve_color="#fff"
-        app:curve_ratio="4"
+        app:text_color="#fff"
+        app:text_size="15sp"
         app:temp_text_color="#fff"
         app:temp_text_size="15sp"
-        app:text_color="#fff"
-        app:text_size="15sp" />
+        app:curve_color="#fff"
+        app:circle_color="#fff"
+        app:curve_ratio="4"/>
 
     <ScrollView
         android:layout_width="match_parent"
